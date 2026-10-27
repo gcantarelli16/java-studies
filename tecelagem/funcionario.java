@@ -1,28 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package extecelagem;
 
-/**
- *
- * @author gabri
- */
 public abstract class funcionario {
-    
+
     protected String nome;
     protected int rg;
     protected double salarioBase;
     protected double somado;
     protected double salarioLiquido;
-    
+
     public abstract double salarioLiquido();
-    
+
     public void hollerith() {
         salarioLiquido();
         System.out.println("Nome: " + nome + " RG: " + rg + " Salario Base: " + salarioBase + " Somas e Descontos: " + somado + " Salario Liquido: " + salarioLiquido);
     }
-    
+
     public void novoMes() {
         this.salarioLiquido = 0;
     }
@@ -50,7 +42,7 @@ public abstract class funcionario {
     public void setSalarioBase(double salarioBase) {
         this.salarioBase = salarioBase;
     }
-    
+
     public void soma() {
         this.somado = this.salarioLiquido - salarioBase;
     }
@@ -60,5 +52,4 @@ public abstract class funcionario {
         this.rg = rg;
         this.salarioBase = salarioBase;
     }
-    
 }
