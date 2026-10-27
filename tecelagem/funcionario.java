@@ -1,7 +1,6 @@
 package extecelagem;
 
 public abstract class funcionario {
-
     protected String nome;
     protected int rg;
     protected double salarioBase;

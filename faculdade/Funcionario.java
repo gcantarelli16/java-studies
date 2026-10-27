@@ -1,14 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-    package exfaculdade;
-/**
- *
- * @author gabri
- */
-public class Funcionario extends Pessoa{
-    
+package exfaculdade;
+
+public class Funcionario extends Pessoa {
     protected String departamento;
     protected int faltas;
     protected double funcSalario;
@@ -30,10 +22,10 @@ public class Funcionario extends Pessoa{
     @Override
     public void hollerith() {
         System.out.println("\nDepartamento: " + departamento);
-        super.hollerith(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        super.hollerith();
     }
 
-    public void registraFalta () {
+    public void registraFalta() {
         this.faltas = this.faltas + 1;
     }
 
@@ -45,11 +37,7 @@ public class Funcionario extends Pessoa{
 
     @Override
     public void zerarMes() {
-        super.zerarMes(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        super.zerarMes();
         this.faltas = 0;
     }
-    
-    
-    
-    
 }

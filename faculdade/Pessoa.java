@@ -1,15 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package exfaculdade;
 
-/**
- *
- * @author gabri
- */
 public abstract class Pessoa {
-    
     protected String nome;
     protected int rg;
     protected int qntdFilhos;
@@ -44,15 +35,13 @@ public abstract class Pessoa {
         this.rg = rg;
         this.qntdFilhos = qntdFilhos;
     }
-    
-    public abstract double calcularSalario(); 
 
+    public abstract double calcularSalario();
 
-    
     public void hollerith() {
         System.out.println("Nome: " + nome + "\nRG: " + rg + "\nQuantidade de FIlhos: " + qntdFilhos + "\nSalario: " + totalSalario);
     }
-    
+
     public void zerarMes() {
         this.totalSalario = 0;
     }
