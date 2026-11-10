@@ -104,21 +104,3 @@ public class Turma {
     }
     
 }
-
-
-
-//Um curso de informática precisa de um sistema para cadastrar seus alunos. Cada turma de alunos usa o laboratório em um horário específico 
-//durante a semana e tem no máximo 20 alunos. Crie uma classe para as turmas e outra para os alunos. A classe das turmas precisa ter como atributos o nome do curso, 
-//a quantidade total de aulas (int) e a lista de alunos. A classe para os alunos precisa registrar código do aluno (int), 
-//seu nome (String), a média final (double) e a quantidade de faltas (int). Todos os atributos devem ser privados e não use construtores padrão. 
-//Na classe para os alunos implemente todos os métodos necessários para que a classe para a turma possa fazer todas as operações sem acesso direto aos atributos dos alunos. 
-
-//void listarTodos()
-//Lista todos os alunos na saída padrão. A listagem deve incluir o código, o nome, a nota final e a quantidade de faltas e a frequência 
-//(porcentagem de presenças em relação à quantidade total de aulas) de cada aluno. No topo da listagem imprima o nome do curso.
-
-//void listarAprovados()
-//Lista os alunos aprovados na saída padrão. O aluno é considerado aprovado se teve média maior ou igual a 6.0 e teve pelo menos 75% de frequência. 
-//No topo da listagem imprima o nome do curso.
-
-//O método main da aplicação deve testar todos os métodos acima incluindo pelo menos 3 alunos no sistema e capturar todas as exceções lançadas.
